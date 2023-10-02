@@ -1,13 +1,15 @@
 {
-  "arrowParens": "always",
+  "parser": "typescript",
+  "arrowParens": "avoid",
   "bracketSpacing": true,
   "jsxBracketSameLine": false,
-  "jsxSingleQuote": false,
+  "jsxSingleQuote": true,
+  "singleQuote": true,
   "orderedImports": true,
   "semi": true,
-  "singleQuote": true,
   "tabWidth": 2,
   "trailingComma": "all",
   "useTabs": false,
-  "printWidth": 80
+  "printWidth": 120,
+  "endOfLine": "lf"
 }
